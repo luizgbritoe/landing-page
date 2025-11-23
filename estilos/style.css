@@ -87,7 +87,7 @@ main img {
     grid-column: 2;
 }
 
-#quem-somos, #servicos, #unidade, #agendar {
+#quem-somos, #servicos, #localizacao {
     padding: 10px;
     background-color: white;
     border-radius: 10px;
@@ -180,12 +180,9 @@ footer a:hover {
     color: var(--primaria-clara);
 }
 
-#local {
-    grid-column: 2;
-}
-
-#local h2 {
+#localizacao h2 {
     color: var(--primaria);
+    margin-bottom: 10px;
 }
 
 @media screen and (min-width: 768px) {
